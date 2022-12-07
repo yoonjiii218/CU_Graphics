@@ -1,0 +1,97 @@
+﻿  Camera.cpp
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\Camera.cpp(570,11): error C2672: 'glm::rotate': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\Camera.cpp(570,36): error C2784: 'glm::vec<4,T,Q> glm::rotate(const glm::qua<T,Q> &,const glm::vec<4,T,Q> &)': 'const glm::qua<T,Q> &'의 템플릿 인수를 'float'에서 추론할 수 없습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\gtx\quaternion.hpp(98): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\Camera.cpp(570,36): error C2784: 'glm::vec<3,T,Q> glm::rotate(const glm::qua<T,Q> &,const glm::vec<3,T,Q> &)': 'const glm::qua<T,Q> &'의 템플릿 인수를 'float'에서 추론할 수 없습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\gtx\quaternion.hpp(90): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\Camera.cpp(570,36): error C2780: 'glm::qua<T,Q> glm::rotate(const glm::qua<T,Q> &,const T &,const glm::vec<3,T,Q> &)': 인수가 3개 있어야 하는데 2개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\quaternion_transform.hpp(43): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\Camera.cpp(570,36): error C2780: 'glm::mat<4,4,T,Q> glm::rotate(const glm::mat<4,4,T,Q> &,T,const glm::vec<3,T,Q> &)': 인수가 3개 있어야 하는데 2개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\matrix_transform.hpp(80): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\Camera.cpp(574,13): error C2672: 'glm::translate': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\Camera.cpp(574,24): error C2780: 'glm::mat<4,4,T,Q> glm::translate(const glm::mat<4,4,T,Q> &,const glm::vec<3,T,Q> &)': 인수가 2개 있어야 하는데 1개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\matrix_transform.hpp(64): message : 'glm::translate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\Camera.cpp(577,14): error C2672: 'glm::scale': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\Camera.cpp(577,30): error C2780: 'glm::mat<4,4,T,Q> glm::scale(const glm::mat<4,4,T,Q> &,const glm::vec<3,T,Q> &)': 인수가 2개 있어야 하는데 1개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\matrix_transform.hpp(95): message : 'glm::scale' 선언을 참조하십시오.
+  CubeObj.cpp
+  GroundObj.cpp
+  InitShader.cpp
+  main_RotatingCube3.cpp
+  RotatingCube3App.cpp
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(164,27): error C2672: 'glm::scale': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(164,72): error C2780: 'glm::mat<4,4,T,Q> glm::scale(const glm::mat<4,4,T,Q> &,const glm::vec<3,T,Q> &)': 인수가 2개 있어야 하는데 1개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\matrix_transform.hpp(95): message : 'glm::scale' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(171,27): error C2672: 'glm::translate': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(171,62): error C2780: 'glm::mat<4,4,T,Q> glm::translate(const glm::mat<4,4,T,Q> &,const glm::vec<3,T,Q> &)': 인수가 2개 있어야 하는데 1개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\matrix_transform.hpp(64): message : 'glm::translate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(172,30): error C2672: 'glm::scale': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(172,63): error C2780: 'glm::mat<4,4,T,Q> glm::scale(const glm::mat<4,4,T,Q> &,const glm::vec<3,T,Q> &)': 인수가 2개 있어야 하는데 1개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\matrix_transform.hpp(95): message : 'glm::scale' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(173,22): error C2672: 'glm::rotate': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(173,100): error C2784: 'glm::vec<4,T,Q> glm::rotate(const glm::qua<T,Q> &,const glm::vec<4,T,Q> &)': 'const glm::qua<T,Q> &'의 템플릿 인수를 'genType'에서 추론할 수 없습니다.
+          with
+          [
+              genType=float
+          ]
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\gtx\quaternion.hpp(98): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(173,100): error C2784: 'glm::vec<3,T,Q> glm::rotate(const glm::qua<T,Q> &,const glm::vec<3,T,Q> &)': 'const glm::qua<T,Q> &'의 템플릿 인수를 'genType'에서 추론할 수 없습니다.
+          with
+          [
+              genType=float
+          ]
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\gtx\quaternion.hpp(90): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(173,100): error C2780: 'glm::qua<T,Q> glm::rotate(const glm::qua<T,Q> &,const T &,const glm::vec<3,T,Q> &)': 인수가 3개 있어야 하는데 2개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\quaternion_transform.hpp(43): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(173,100): error C2780: 'glm::mat<4,4,T,Q> glm::rotate(const glm::mat<4,4,T,Q> &,T,const glm::vec<3,T,Q> &)': 인수가 3개 있어야 하는데 2개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\matrix_transform.hpp(80): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(174,22): error C2672: 'glm::rotate': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(174,101): error C2784: 'glm::vec<4,T,Q> glm::rotate(const glm::qua<T,Q> &,const glm::vec<4,T,Q> &)': 'const glm::qua<T,Q> &'의 템플릿 인수를 'genType'에서 추론할 수 없습니다.
+          with
+          [
+              genType=float
+          ]
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\gtx\quaternion.hpp(98): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(174,101): error C2784: 'glm::vec<3,T,Q> glm::rotate(const glm::qua<T,Q> &,const glm::vec<3,T,Q> &)': 'const glm::qua<T,Q> &'의 템플릿 인수를 'genType'에서 추론할 수 없습니다.
+          with
+          [
+              genType=float
+          ]
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\gtx\quaternion.hpp(90): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(174,101): error C2780: 'glm::qua<T,Q> glm::rotate(const glm::qua<T,Q> &,const T &,const glm::vec<3,T,Q> &)': 인수가 3개 있어야 하는데 2개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\quaternion_transform.hpp(43): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(174,101): error C2780: 'glm::mat<4,4,T,Q> glm::rotate(const glm::mat<4,4,T,Q> &,T,const glm::vec<3,T,Q> &)': 인수가 3개 있어야 하는데 2개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\matrix_transform.hpp(80): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(182,27): error C2672: 'glm::scale': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(182,60): error C2780: 'glm::mat<4,4,T,Q> glm::scale(const glm::mat<4,4,T,Q> &,const glm::vec<3,T,Q> &)': 인수가 2개 있어야 하는데 1개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\matrix_transform.hpp(95): message : 'glm::scale' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(183,27): error C2672: 'glm::translate': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(183,63): error C2780: 'glm::mat<4,4,T,Q> glm::translate(const glm::mat<4,4,T,Q> &,const glm::vec<3,T,Q> &)': 인수가 2개 있어야 하는데 1개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\matrix_transform.hpp(64): message : 'glm::translate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(184,22): error C2672: 'glm::translate': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(184,56): error C2780: 'glm::mat<4,4,T,Q> glm::translate(const glm::mat<4,4,T,Q> &,const glm::vec<3,T,Q> &)': 인수가 2개 있어야 하는데 1개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\matrix_transform.hpp(64): message : 'glm::translate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(194,28): error C2672: 'glm::translate': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(194,62): error C2780: 'glm::mat<4,4,T,Q> glm::translate(const glm::mat<4,4,T,Q> &,const glm::vec<3,T,Q> &)': 인수가 2개 있어야 하는데 1개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\matrix_transform.hpp(64): message : 'glm::translate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(195,28): error C2672: 'glm::scale': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(195,61): error C2780: 'glm::mat<4,4,T,Q> glm::scale(const glm::mat<4,4,T,Q> &,const glm::vec<3,T,Q> &)': 인수가 2개 있어야 하는데 1개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\matrix_transform.hpp(95): message : 'glm::scale' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(196,23): error C2672: 'glm::rotate': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(196,108): error C2784: 'glm::vec<4,T,Q> glm::rotate(const glm::qua<T,Q> &,const glm::vec<4,T,Q> &)': 'const glm::qua<T,Q> &'의 템플릿 인수를 'genType'에서 추론할 수 없습니다.
+          with
+          [
+              genType=float
+          ]
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\gtx\quaternion.hpp(98): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(196,108): error C2784: 'glm::vec<3,T,Q> glm::rotate(const glm::qua<T,Q> &,const glm::vec<3,T,Q> &)': 'const glm::qua<T,Q> &'의 템플릿 인수를 'genType'에서 추론할 수 없습니다.
+          with
+          [
+              genType=float
+          ]
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\gtx\quaternion.hpp(90): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(196,108): error C2780: 'glm::qua<T,Q> glm::rotate(const glm::qua<T,Q> &,const T &,const glm::vec<3,T,Q> &)': 인수가 3개 있어야 하는데 2개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\quaternion_transform.hpp(43): message : 'glm::rotate' 선언을 참조하십시오.
+C:\Users\user\Documents\GitHub\CU_Graphics\Rotating\RotatingCube3\RotatingCube3App.cpp(196,108): error C2780: 'glm::mat<4,4,T,Q> glm::rotate(const glm::mat<4,4,T,Q> &,T,const glm::vec<3,T,Q> &)': 인수가 3개 있어야 하는데 2개를 사용했습니다.
+C:\Users\user\source\repos\FirstOpenGL\Include\glm\ext\matrix_transform.hpp(80): message : 'glm::rotate' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
